@@ -7,4 +7,4 @@ I am using this repository to track my daily progress, complete chapter exercise
 ## Structure
 - `ch02/`: C Fundamentals
 - `ch03/`: Formatted Input/Output
-- *(more chapters added as I complete them)*
+- (more chapters added as I complete them)

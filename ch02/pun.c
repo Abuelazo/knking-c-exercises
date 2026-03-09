@@ -10,6 +10,8 @@
 // The word "void" indicates that the function takes no arguments.
 int main(void)
 {
+    // The statement printf displays a string on the screen.
+    // Asking a function to perform a task is known as calling the function.
     printf("To C or not to C: that is the question.\n");
 
     // The statement "return 0" has two consequences:

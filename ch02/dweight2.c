@@ -2,11 +2,7 @@
 
 int main(void)
 {
-	int height = 8, length = 12, width = 10, weight, volume;
-
-	volume = height * length * width;
-
-	weight = (volume + 165) / 166;
+	int height, length , width , weight, volume;
 
 	printf("Please enter height: ");
 	scanf("%d", &height);
@@ -17,10 +13,15 @@ int main(void)
 	printf("Please enter width: ");
 	scanf("%d", &width);
 
+	// Calculate after getting input.
+	volume = height * length * width;
+	weight = (volume + 165) / 166;
+
 	printf("\n");
 
 	printf("Dimensions: %dx%dx%d\n", height, length, width);
 	printf("Volume: %d\n", volume);
 	printf("Dimensional Weight: %d\n", weight);
-}
 
+	return 0;
+}

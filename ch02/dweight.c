@@ -15,7 +15,7 @@ int main(void)
 	// Because the shipping company expect us to round up, one solution is to add 165 to the volume before dividing by 166.
 	weight = (volume + 165) / 166;
 
-	printf("Dimensions: %dx%dx%d\n", weight, length, width);
+	printf("Dimensions: %dx%dx%d\n", height, length, width);
 	printf("Volume: %d\n", volume);
 	printf("Dimensional Weight: %d\n", weight);
 }

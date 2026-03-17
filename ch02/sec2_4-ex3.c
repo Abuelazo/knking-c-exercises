@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Compute the dimensional weight of a 12 x 10 x 8 box
+// Condense the dweight.c program by (1) replacing the assignments to height,  length, and width with initializers and (2) removing the weight variable, instead cal¬  culating (volume + 165) / 166 within the last printf.  
 
 int main(void)
 {

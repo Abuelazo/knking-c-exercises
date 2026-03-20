@@ -2,9 +2,9 @@
 
 int main(void)
 {
-	int i;
-	float x, y;
+	int i, j;
+	float x;
 
-	scanf("%f%d%f", &x, &i, &y);
-	printf("%f %d %f\n", x, i, y);
+	scanf("%d%f%d", &i, &x, &j);
+	printf("%d %f %d\n", i, x, j);
 }

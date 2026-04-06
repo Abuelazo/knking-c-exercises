@@ -1,13 +1,16 @@
 
 int main(void)
-
-	// Many statements in C, including if statement, must test the value of an expression to see if it is true or false.
-	// An expression such as i < j would have a special boolean or logical type in other programming languages. Such a type would have only two values, false and true.
-	// In C, however that comparison yields an integer: either 0 (false) or 1 (true).
 {
+	// In C, logical operators are ! (logical negation), && (logical and) and || (logical or).
+	// They produce either 0 or 1 as their result. Often the operands will have values 0 or 1, but this is not a requirement.
+	// The logical operators treat any nonzero operand as a true value and any zero operand as a false value.
 	int i = 2, j = 3;
 
-	i < j; // yields 1 (true)
-	       
-	return 0;
+	!i;  // 0 — i is nonzero, negation gives false
+	!!i; // 1 — double negation normalizes to 0 or 1
+	i != 0; // 1
+	(i != 0) && (j == 3); // 1
+	(i != 0) || (j == 12);  // 1 — j==12 never evaluated (short-circuit)
+        0 && (j = 99);   // j stays 3 — right side never executes
 }
+

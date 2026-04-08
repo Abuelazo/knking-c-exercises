@@ -7,4 +7,6 @@ I am using this repository to track my daily progress, complete chapter exercise
 ## Structure
 - `ch02/`: C Fundamentals
 - `ch03/`: Formatted Input/Output
+- `ch04/`: Expressions
+- `ch05/`: Selection Statements
 - (more chapters added as I complete them)

@@ -10,12 +10,11 @@ int main(void) {
 
   switch (day) {
   case 1: case 11: case 21: case 31:
-    printf("st");
-  
+    printf("st "); break;
   case 2: case 12: case 22:
-    printf("nd");
+    printf("nd "); break;
   case 3: case 13: case 23:
-    printf("rd");
+    printf("rd "); break;
   
   default: printf("th day ");
   }
@@ -47,5 +46,5 @@ int main(void) {
 	    printf("of December"); break;
   }
 
-  printf(", 20%d.", year);
+  printf(", 20%.2d.", year);
 }

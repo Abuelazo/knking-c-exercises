@@ -9,4 +9,5 @@ I am using this repository to track my daily progress, complete chapter exercise
 - `ch03/`: Formatted Input/Output
 - `ch04/`: Expressions
 - `ch05/`: Selection Statements
+- `ch05/`: Loop Statements
 - (more chapters added as I complete them)
